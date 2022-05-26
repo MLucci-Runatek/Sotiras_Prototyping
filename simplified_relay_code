@@ -14,7 +14,7 @@ void loop()
 {
 
   digitalWrite(12, HIGH);
-  delay(13000); // Wait for 500 millisecond(s)
+  delay(13000); // Wait for 13000 millisecond(s). This represents a set dosage value.
   digitalWrite(12, LOW);
-  delay(43000); // Wait for 500 millisecond(s)
+  delay(43000); // Wait for 500 millisecond(s). This is idle time.
 }
